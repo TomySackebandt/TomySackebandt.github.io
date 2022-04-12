@@ -1,0 +1,277 @@
+@media screen and (max-width: 800px) {
+	td{
+		display: block;
+		width:100%;
+		margin: auto;
+	}
+	#header{
+			padding: 10em; 
+			border-spacing:0; 
+			border-collapse: collapse; 
+			width:100%; 
+			margin: auto;
+	}
+
+}
+
+/* --------------------------------------------------------------------------------------------TITRE----------------------------------------------------------------------------------------------------------------------------- */
+
+.titre {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 2em;
+}
+.titre1Noir {
+	font-size:2em;
+	font-weight:bold;
+	font-stretch: expanded;
+	text-decoration: underline;
+	text-align: center;
+}
+.titre2Noir {
+	font-stretch: expanded;
+	text-decoration: underline;
+}
+.titre1Vert {
+	font-size:3em; 
+	color:#a5e59b;
+	text-align: center; 
+    vertical-align: middle;
+}
+.titre1Blanc {
+	color:#ffffff; 
+	font-size:1cm;
+}
+.titre3Noir {
+	color:black;
+	font-size:1cm;
+	font-family :"Verdana";
+}
+.titre4Noir {
+	color:black;
+	font-size:1.4cm;
+	font-family :"Verdana";
+}
+
+/* -------------------------------------------------------------------------------------------TEXT---------------------------------------------------------------------------------------------------------------------------- */
+
+.text3Vert {
+	font-size:1cm;
+	color :#a5e59b;
+	font-family:"Verdana";
+}
+.text1Blanc {
+	color:white;
+	font-size:0.5cm;
+	font-family :"Verdana";
+}
+.text2Blanc {
+	color:white;
+	font-family :"Verdana";
+}
+.text3Blanc {
+	color:white;
+	font-size:0.8cm;
+	font-family :"Verdana";
+}
+.text1Noir {
+	color:black;
+	font-size:0.5cm;
+	font-family :"Verdana";
+}
+.textNoir2{
+	color:black;
+	font-size:0.7cm;
+	font-family :"Verdana";
+}
+.text3Noir {
+	color:black;
+	font-size:0.5cm;
+	font-family :"Arial";
+}
+
+/* --------------------------------------------------------------------------------------------TABLE----------------------------------------------------------------------------------------------------------------------------- */
+
+.tableContact {
+	background-color:#2E3138;
+	margin: auto;
+	width:50%;
+	border-spacing:0; 
+	padding: 25px;
+}
+.table1Noir {
+	background-color:#2E3138;
+	width:100%;
+}
+.table2Noir {
+	background-color:#2E3138;
+	margin: 1cm;
+	width:90%;
+}
+.table3Noir {
+	background-color:#2E3138;
+	margin: 1cm;
+	width:auto;
+}
+.table4Noir {
+	padding: 10em; 
+	border-spacing:0; 
+	border-collapse: collapse; 
+	width:100%; 
+	margin: auto;
+	background-color:#2E3138;
+}
+.tableVert {
+	padding: 10em; 
+	border-spacing:0; 
+	border-collapse: collapse; 
+	width:100%; 
+	margin: auto;
+	border-style:groove; 
+	border-color:#4CAF50;
+	border-style: solid;
+}
+.table2Vert {
+	background-color:#a5e59b;
+	width:100%;
+}
+.tableNoir80 {
+	padding: 10em; 
+	border-spacing:0; 
+	border-collapse: collapse; 
+	width:80%; 
+	margin: auto;
+	background-color:#2E3138;
+}
+.table90{
+	padding: 10em; 
+	border-spacing:1; 
+	border-collapse: collapse; 
+	width:90%; 
+	margin: auto;
+	height: 3em;
+}
+.table1Grey {
+	padding: 0; 
+	border-spacing:0; 
+	border-collapse: collapse; 
+	width:100%; 
+	margin: auto;
+	background-color:#c2c0c3;
+}
+.table2Grey {
+	background-color:#c2c0c3;
+	width:80%;
+	padding: 0; 
+	border-spacing:0; 
+	border-collapse: collapse;
+	margin: auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------TD------------------------------------------------------------------------------------------------------------------------- */
+
+.td10 {
+	width:10%;
+}
+.td30 {
+	width:30%;
+}
+.td60 {
+	width:60%;
+}
+.td70 {
+	width:70%;
+}
+.td40 {
+	 width:40%;
+}
+.td80 {
+	 width:80%;
+}
+.tdT80 {
+	width:80%;
+	vertical-align: top;
+}
+.tdT13 {
+	width:13%;
+	vertical-align: top;
+}
+.td1 {
+	height:3cm;
+	vertical-align: middle;
+}
+.td2 {
+	 width:30%; 
+	 vertical-align: top;
+}
+.tdv{
+	vertical-align: top;
+}
+.td3 {
+	 height:100%; 
+	 vertical-align: middle;
+}
+
+/* -------------------------------------------------------------------------------------------------AUTRE---------------------------------------------------------------------------------------------------------------------- */
+
+.accueil table {
+	padding: 10;
+	border-spacing:0;
+	border-collapse: collapse;
+	width:90%;
+	margin: auto;
+}
+#header {
+	width:100%;
+	background-color: #a5e59b ;
+	padding: 0;
+	border-spacing:0;
+	border-collapse: collapse;
+}
+#header a{
+	text-decoration:none;
+	font-size:0.6cm;
+	color:black;
+}
+body {
+	font-family : "Verdana";
+	font-size:1.1em;
+}
+.centre {
+	text-align: center;
+}
+.hr1Vert {
+	border: 1px solid #4CAF50;
+	width:3cm;
+}
+
+.hr1Noir {
+	border: 1px solid black;
+	width:3cm;
+}	
+.frame{
+	border-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+}
+.difram {
+	position: relative; 
+	overflow: hidden; 
+	padding-top: 100%; 
+	border-style:groove; 
+	border-color:#4CAF50;
+}
+.nodeco{
+	text-decoration:none;
+}
+.lik{
+	color : #afbbf6;
+}
+.margin2{
+	margin-left:2em;
+}
+.w25{
+	width:25cm;
+}
