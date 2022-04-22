@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+	<!--<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">-->
 	<link rel="stylesheet" href="css/main.css" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,7 +104,7 @@
 
 					<tr>
 						<td class="td40 ">
-							<img src="img/photo.jpg" alt="Ma Photo" class="photo">
+							<img src="img/photo.jpg" alt="Ma Photo" class="photo" id="myI">
 						</td>
 				
 						<td class="td60">
@@ -112,12 +112,14 @@
 								Merci, pour votre intérêt !<br>
 								Ceci est un texte, qui va parler de moi de qui je suis, de mes intérêts, de mes compétences. 
 								<br>&nbsp;<br>
-								22 ans, actuelement etudiant en BTS SIO a Angers (Services informatiques aux organisations).
+								22 ans, actuelement etudiant en BTS Services informatique au organisations (SIO) à Angers.
 								<br>&nbsp;<br>
-								J’ai beaucoup étudier en autodidacte pour ce qui est de l'informatique en générale, j'ai actuellement eu envie de me concentrer dessus, en rejoignant en 2021/2022 le BTS.
+								J’ai beaucoup étudier en autodidacte pour ce qui est de l'informatique en générale, j'ai actuellement eu envie de me concentrer dessus, en rejoignant en 2021/2022 le BTS SIO.
 								<br>&nbsp;<br>
+								Je suis particulierement attiré par l'open sources et en générale la liberter d'internet.
+								<br>
 								<!--Ici on va parler du site lui même, de pourquoi je l'ai fait et de ce qu'on va y trouver blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla.-->
-								On va retrouver sur ce site des informations sur mes précèdent projet (principalement des projet personelle), et plusieurs façons de me contacter.
+								On va retrouver sur ce site des informations sur mes précèdent projet (principalement des projet personelle et des projet pour le BTS), et bien sur plusieurs façons de me contacter.
 								<br>&nbsp;<br>
 								Merci pour votre visite !
 								<br>&nbsp;<br>
@@ -149,7 +151,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="td2">
+						<td class="td10">
 							
 							<ul>
 								<li>
@@ -301,56 +303,7 @@
 
 					<tr>
 						<td class="centre tdv">
-							<table class="tableContact">
-								<tr>
-									<td class="td30">
-										<hr class="centre hr1Noir">
-										<div class="text1Blanc">
-											Nom
-										</div>
-									</td>
-									<td class="td70">
-										<div class="text1Blanc">
-											<input type="text" size="40">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="td30">
-										<div class="text1Blanc">
-											Email
-										</div>
-									</td>
-									<td class="td70">
-										<div class="text1Blanc">
-											<input type="email" size="40">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td class="td30">
-										<div class="text1Blanc">
-											Message
-										</div>
-									</td>
-									<td class="td70">
-										<div class="text1Blanc">
-											<textarea rows="5" cols="37">
-											</textarea>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td  class="td30">
-										
-									</td>
-									<td  class="td70">
-										<button type="Submit">
-												<b class="text1Noir">Envoyer</b>
-										</button>
-									</td>
-								</tr>
-							</table>
+							
 							<br>&nbsp;<br>
 						</td>
 
@@ -370,7 +323,7 @@
 					<tr>
 						<td class="tdT13">
 							
-							<a href="#" class="nodeco">
+							<!--<a href="#" class="nodeco">
 							<div class="text1Noir">
 								LinkedIn
 							</div>
@@ -381,7 +334,7 @@
 						<td>
 							|
 						</td>
-
+					-->
 						<td class="tdT13">
 							
 							<a href="https://github.com/TomySackebandt" class="nodeco">
@@ -442,6 +395,18 @@
 		</tr>
 	</table>
 	<!--Footer2(end)-->
+	<div id="myModal" class="modal">
+
+		<!-- The Close Button -->
+		<span class="close">&times;</span>
+	  
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+	  
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	  </div>
+	<script src="js/index.js"></script>
 
 </body>
 
